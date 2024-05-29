@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		5DB7D04B2C06B6C1009D59D8 /* FoodOrderAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7D04A2C06B6C1009D59D8 /* FoodOrderAppApp.swift */; };
-		5DB7D04D2C06B6C1009D59D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7D04C2C06B6C1009D59D8 /* ContentView.swift */; };
+		5DB7D04D2C06B6C1009D59D8 /* FoodOrderTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7D04C2C06B6C1009D59D8 /* FoodOrderTabView.swift */; };
 		5DB7D04F2C06B6C3009D59D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB7D04E2C06B6C3009D59D8 /* Assets.xcassets */; };
 		5DB7D0522C06B6C3009D59D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB7D0512C06B6C3009D59D8 /* Preview Assets.xcassets */; };
 		5DB7D05C2C06B6C3009D59D8 /* FoodOrderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7D05B2C06B6C3009D59D8 /* FoodOrderAppTests.swift */; };
 		5DB7D0662C06B6C3009D59D8 /* FoodOrderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7D0652C06B6C3009D59D8 /* FoodOrderAppUITests.swift */; };
 		5DB7D0682C06B6C3009D59D8 /* FoodOrderAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7D0672C06B6C3009D59D8 /* FoodOrderAppUITestsLaunchTests.swift */; };
+		5DB7D0752C06B73A009D59D8 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7D0742C06B73A009D59D8 /* AppetizerListView.swift */; };
+		5DB7D0772C06B747009D59D8 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7D0762C06B747009D59D8 /* AccountView.swift */; };
+		5DB7D0792C06B74D009D59D8 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7D0782C06B74D009D59D8 /* OrderView.swift */; };
+		5DB7D07B2C06BE3A009D59D8 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7D07A2C06BE3A009D59D8 /* Appetizer.swift */; };
+		5DB7D07D2C06C4B3009D59D8 /* AppetizerCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7D07C2C06C4B3009D59D8 /* AppetizerCellView.swift */; };
+		5DB7D07F2C06FB70009D59D8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7D07E2C06FB70009D59D8 /* NetworkManager.swift */; };
+		5DB7D0812C06FCDD009D59D8 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7D0802C06FCDD009D59D8 /* APError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		5DB7D0472C06B6C1009D59D8 /* FoodOrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodOrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB7D04A2C06B6C1009D59D8 /* FoodOrderAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodOrderAppApp.swift; sourceTree = "<group>"; };
-		5DB7D04C2C06B6C1009D59D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5DB7D04C2C06B6C1009D59D8 /* FoodOrderTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodOrderTabView.swift; sourceTree = "<group>"; };
 		5DB7D04E2C06B6C3009D59D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DB7D0512C06B6C3009D59D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5DB7D0572C06B6C3009D59D8 /* FoodOrderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodOrderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,13 @@
 		5DB7D0612C06B6C3009D59D8 /* FoodOrderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodOrderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB7D0652C06B6C3009D59D8 /* FoodOrderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodOrderAppUITests.swift; sourceTree = "<group>"; };
 		5DB7D0672C06B6C3009D59D8 /* FoodOrderAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodOrderAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5DB7D0742C06B73A009D59D8 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		5DB7D0762C06B747009D59D8 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		5DB7D0782C06B74D009D59D8 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		5DB7D07A2C06BE3A009D59D8 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		5DB7D07C2C06C4B3009D59D8 /* AppetizerCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerCellView.swift; sourceTree = "<group>"; };
+		5DB7D07E2C06FB70009D59D8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5DB7D0802C06FCDD009D59D8 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +109,16 @@
 			isa = PBXGroup;
 			children = (
 				5DB7D04A2C06B6C1009D59D8 /* FoodOrderAppApp.swift */,
-				5DB7D04C2C06B6C1009D59D8 /* ContentView.swift */,
+				5DB7D04C2C06B6C1009D59D8 /* FoodOrderTabView.swift */,
 				5DB7D04E2C06B6C3009D59D8 /* Assets.xcassets */,
 				5DB7D0502C06B6C3009D59D8 /* Preview Content */,
+				5DB7D0742C06B73A009D59D8 /* AppetizerListView.swift */,
+				5DB7D07C2C06C4B3009D59D8 /* AppetizerCellView.swift */,
+				5DB7D0762C06B747009D59D8 /* AccountView.swift */,
+				5DB7D0782C06B74D009D59D8 /* OrderView.swift */,
+				5DB7D07A2C06BE3A009D59D8 /* Appetizer.swift */,
+				5DB7D07E2C06FB70009D59D8 /* NetworkManager.swift */,
+				5DB7D0802C06FCDD009D59D8 /* APError.swift */,
 			);
 			path = FoodOrderApp;
 			sourceTree = "<group>";
@@ -257,8 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DB7D04D2C06B6C1009D59D8 /* ContentView.swift in Sources */,
+				5DB7D07D2C06C4B3009D59D8 /* AppetizerCellView.swift in Sources */,
+				5DB7D0812C06FCDD009D59D8 /* APError.swift in Sources */,
+				5DB7D07B2C06BE3A009D59D8 /* Appetizer.swift in Sources */,
+				5DB7D0772C06B747009D59D8 /* AccountView.swift in Sources */,
+				5DB7D04D2C06B6C1009D59D8 /* FoodOrderTabView.swift in Sources */,
+				5DB7D07F2C06FB70009D59D8 /* NetworkManager.swift in Sources */,
 				5DB7D04B2C06B6C1009D59D8 /* FoodOrderAppApp.swift in Sources */,
+				5DB7D0752C06B73A009D59D8 /* AppetizerListView.swift in Sources */,
+				5DB7D0792C06B74D009D59D8 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
